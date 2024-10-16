@@ -1,0 +1,16 @@
+@media (max-width: 768px) {
+    .menu-enlae{
+        flex-direction: column;
+    }
+    .menu-enlae a{
+        border: 0;
+        border-bottom: 1px dashed blue;
+        border-radius: 0;
+    }
+    .section{
+        display: grid;
+        grid-template-rows: repeat(1, 1fr);
+    }
+    .section1{grid-row: 2/2;}
+    .section2{grid-row: 1/2;}
+}
